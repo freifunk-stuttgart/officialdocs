@@ -1,0 +1,301 @@
+% ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+% Colors
+% ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+\definecolor{sectioncolor}{RGB}{0, 0, 0}     % black
+
+% ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+% text related 
+% ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+%% style of URL
+\urlstyle{tt}
+
+
+% Keine hochgestellten Ziffern in der Fussnote (KOMA-Script-spezifisch):
+\deffootnote{1.5em}{1em}{\makebox[1.5em][l]{\thefootnotemark}}
+
+% Limit space of footnotes to 10 lines
+\setlength{\dimen\footins}{10\baselineskip}
+
+% prevent continuation of footnotes 
+% at facing page
+\interfootnotelinepenalty=10000 
+
+% ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+% Science
+% ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+\sisetup{%
+	mode = math, detect-family, detect-weight,	
+	exponent-product = \cdot,
+	number-unit-separator=\text{\,},
+	output-decimal-marker={,},
+}
+
+% ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+% Citations / Style of Bibliography
+% ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+% Kommentar entfernene wenn biblatex geladen wird
+% \input{preambel/style-biblatex}
+
+% ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+% figures, placement, floats and captions
+% ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+% Make float placement easier
+\renewcommand{\floatpagefraction}{.75} % vorher: .5
+\renewcommand{\textfraction}{.1}       % vorher: .2
+\renewcommand{\topfraction}{.8}        % vorher: .7
+\renewcommand{\bottomfraction}{.5}     % vorher: .3
+\setcounter{topnumber}{3}        % vorher: 2
+\setcounter{bottomnumber}{2}     % vorher: 1
+\setcounter{totalnumber}{5}      % vorher: 3
+
+%% ~~~ Captions ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+% Style of captions
+\DeclareCaptionStyle{captionStyleTemplateDefault}
+[ % single line captions
+   justification = centering
+]
+{ % multiline captions
+% -- Formatting
+   format      = plain,  % plain, hang
+   indention   = 0em,    % indention of text 
+   labelformat = default,% default, empty, simple, brace, parens
+   labelsep    = colon,  % none, colon, period, space, quad, newline, endash
+   textformat  = simple, % simple, period
+% -- Justification
+   justification = justified, %RaggedRight, justified, centering
+   singlelinecheck = true, % false (true=ignore justification setting in single line)
+% -- Fonts
+   labelfont   = {small,bf},
+   textfont    = {small,rm},
+% valid values:
+% scriptsize, footnotesize, small, normalsize, large, Large
+% normalfont, ip, it, sl, sc, md, bf, rm, sf, tt
+% singlespacing, onehalfspacing, doublespacing
+% normalcolor, color=<...>
+%
+% -- Margins and further paragraph options
+   margin = 10pt, %.1\textwidth,
+   % width=.8\linewidth,
+% -- Skips
+   skip     = 10pt, % vertical space between the caption and the figure
+   position = auto, % top, auto, bottom
+% -- Lists
+   % list=no, % suppress any entry to list of figure 
+   listformat = subsimple, % empty, simple, parens, subsimple, subparens
+% -- Names & Numbering
+   % figurename = Abb. %
+   % tablename  = Tab. %
+   % listfigurename=
+   % listtablename=
+   % figurewithin=chapter
+   % tablewithin=chapter
+%-- hyperref related options
+	hypcap=true, % (true, false) 
+	% true=all hyperlink anchors are placed at the 
+	% beginning of the (floating) environment
+	%
+	hypcapspace=0.5\baselineskip
+}
+
+% apply caption style
+\captionsetup{
+	style = captionStyleTemplateDefault % base
+}
+
+% Predefinded skip setup for different floats
+\captionsetup[table]{position=top}
+\captionsetup[figure]{position=bottom}
+
+
+% options for subcaptions
+\captionsetup[sub]{ %
+	style = captionStyleTemplateDefault, % base
+	skip=6pt,
+	margin=5pt,
+	labelformat = parens,% default, empty, simple, brace
+	labelsep    = space,
+	list=false,
+	hypcap=false
+}
+
+% ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+% layout 
+% ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+%% Paragraph Separation =================================
+\KOMAoptions{%
+   parskip=absolute, % do not change indentation according to fontsize
+   parskip=false     % indentation of 1em
+   % parskip=half    % parksip of 1/2 line 
+}%
+
+%% line spacing =========================================
+%\onehalfspacing	% 1,5-facher Abstand
+%\doublespacing		% 2-facher Abstand
+
+%% page layout ==========================================
+
+\raggedbottom     % Variable Seitenhoehen zulassen
+
+% Koma Script text area layout
+\KOMAoptions{%
+   DIV=11,% (Size of Text Body, higher values = greater textbody)
+   BCOR=5mm% (Bindekorrektur)
+}%
+
+%%% === Page Layout  Options ===
+\KOMAoptions{% (most options are for package typearea)
+   % twoside=true, % two side layout (alternating margins, standard in books)
+   twoside=false, % single side layout 
+   %
+   headlines=2.1,%
+}%
+
+%\KOMAoptions{%
+%      headings=noappendixprefix % chapter in appendix as in body text
+%      ,headings=nochapterprefix  % no prefix at chapters
+%      % ,headings=appendixprefix   % inverse of 'noappendixprefix'
+%      % ,headings=chapterprefix    % inverse of 'nochapterprefix'
+%      % ,headings=openany   % Chapters start at any side
+%      % ,headings=openleft  % Chapters start at left side
+%      ,headings=openright % Chapters start at right side      
+%}%
+
+
+% reloading of typearea, necessary if setting of spacing changed
+\typearea[current]{last}
+
+%% Zitate
+\renewcommand*{\dictumwidth}{0.5\textwidth}
+
+% ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+% Titlepage
+% ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+\KOMAoptions{%
+   % titlepage=true %
+   titlepage=false %
+}%
+
+% ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+% head and foot lines
+% ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+% \pagestyle{scrheadings} % Seite mit Headern
+\pagestyle{scrplain} % Seiten ohne Header
+
+% loescht voreingestellte Stile
+\clearscrheadings
+\clearscrplain
+%
+% Was steht wo...
+% Bei headings:
+%   % Oben aussen: Kapitel und Section
+%   % Unten aussen: Seitenzahl
+%   \ohead{\pagemark}
+%   \ihead{\headmark}
+%   \ofoot[\pagemark]{} % Außen unten: Seitenzahlen bei plain
+% Bei Plain:
+\cfoot[\pagemark]{\pagemark} % Mitte unten: Seitenzahlen bei plain
+
+
+% Angezeigte Abschnitte im Header
+% \automark[section]{chapter} %[rechts]{links}
+\automark[subsection]{section} %[rechts]{links}
+
+% ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+% headings / page opening
+% ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+\setcounter{secnumdepth}{3}
+
+\KOMAoptions{%
+%%%% headings
+   % headings=small  % Small Font Size, thin spacing above and below
+   % headings=normal % Medium Font Size, medium spacing above and below
+   headings=big % Big Font Size, large spacing above and below
+}%
+
+% Titelzeile linksbuendig, haengend
+\renewcommand*{\raggedsection}{\raggedright} 
+
+% ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+% fonts of headings
+% ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+\setkomafont{sectioning}{\normalfont\sffamily} % \rmfamily
+\setkomafont{descriptionlabel}{\itshape}
+\setkomafont{pageheadfoot}{\normalfont\normalcolor\small\sffamily}
+\setkomafont{pagenumber}{\normalfont\sffamily}
+
+%%% --- Titlepage ---
+%\setkomafont{subject}{}
+%\setkomafont{subtitle}{}
+%\setkomafont{title}{}
+
+% ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+% settings and layout of TOC, LOF, 
+% ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+\setcounter{tocdepth}{3} % Depth of TOC Display
+
+% ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+% Tabellen
+% ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+%%% -| Neue Spaltendefinitionen 'columntypes' |--
+%
+% Belegte Spaltentypen:
+% l - links
+% c - zentriert
+% r - rechts
+% p,m,b  - oben, mittig, unten
+% X - tabularx Auto-Spalte
+
+% um Tabellenspalten mit Flattersatz zu setzen, muss \\ vor
+% (z.B.) \raggedright geschuetzt werden:
+\newcommand{\PreserveBackslash}[1]{\let\temp=\\#1\let\\=\temp}
+
+% Spalten mit Flattersatz und definierte Breite:
+% m{} -> mittig
+% p{} -> oben
+% b{} -> unten
+%
+% Linksbuendig:
+\newcolumntype{v}[1]{>{\PreserveBackslash\RaggedRight\hspace{0pt}}p{#1}}
+\newcolumntype{M}[1]{>{\PreserveBackslash\RaggedRight\hspace{0pt}}m{#1}}
+% % Rechtsbuendig :
+% \newcolumntype{R}[1]{>{\PreserveBackslash\RaggedLeft\hspace{0pt}}m{#1}}
+% \newcolumntype{S}[1]{>{\PreserveBackslash\RaggedLeft\hspace{0pt}}p{#1}}
+% % Zentriert :
+% \newcolumntype{Z}[1]{>{\PreserveBackslash\Centering\hspace{0pt}}m{#1}}
+% \newcolumntype{A}[1]{>{\PreserveBackslash\Centering\hspace{0pt}}p{#1}}
+
+\newcolumntype{Y}{>{\PreserveBackslash\RaggedLeft\hspace{0pt}}X}
+
+%-- Einstellungen für Tabellen ----------
+\providecommand\tablestyle{%
+  \renewcommand{\arraystretch}{1.4} % Groessere Abstaende zwischen Zeilen
+  \normalfont\normalsize            %
+  \sffamily\small           % Serifenlose und kleine Schrift
+  \centering%                       % Tabelle zentrieren
+}
+
+%--Einstellungen für Tabellen ----------
+
+\colorlet{tablesubheadcolor}{gray!40}
+\colorlet{tableheadcolor}{gray!25}
+\colorlet{tableblackheadcolor}{black!60}
+\colorlet{tablerowcolor}{gray!15.0}
+
+%--Paragraph vor Kapitel--
+\renewcommand{\thechapter}{\S\arabic{chapter}}
+
+% ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+% pdf packages
+% ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+% ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+% fix remaining problems
+% ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

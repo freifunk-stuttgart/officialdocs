@@ -1,0 +1,112 @@
+% ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+% These packages must be loaded before all others
+% (primarily because they are required by other packages)
+% ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+\usepackage{calc}
+\usepackage{fixltx2e}	% Fix known LaTeX2e bugs
+
+\usepackage[ngerman]{babel} 			% Sprache
+\usepackage[dvipsnames, table]{xcolor} 	% Farben
+
+% ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+% Bilder, Gleitumgebungen und Platzierung
+% ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+\usepackage[]{graphicx}					% Graphiken
+\usepackage{epstopdf}		% konvertiert eps in pdf
+
+% provides new floats and enables H float modifier option
+\usepackage{float}
+% Floats immer erst nach der Referenz setzen
+\usepackage{flafter}
+% Alel Floats werden vor der nächsten section ausgegeben
+\usepackage[section]{placeins} 
+%
+
+\usepackage{tikz}
+%tikz verwenden um Grafiken zu erstellen
+\usepackage{pgfplots}
+%pgfplots verwenden für Diagramme
+
+% ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+% Beschriftungen (captions)
+% ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+\usepackage{caption}
+\usepackage[list=true, listformat=simple]{subcaption}
+
+% ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+% Math
+% ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+% Base Math Package
+\usepackage[fleqn]{amsmath} 
+% Warnt bei Benutzung von Befehlen die mit amsmath inkompatibel sind.
+\usepackage[all, error]{onlyamsmath}
+%Brüche schräg statt horizontal brechen
+\usepackage{nicefrac}
+
+% ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+% Science
+% ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+% Einheiten und Zahlenformatierung
+\usepackage{siunitx}
+
+% ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+% Tables (Tabular)
+% ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+\usepackage{booktabs}
+\usepackage{ltxtable} % Longtable + tabularx
+
+% ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+% text related packages
+% ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+\usepackage{url}            % Befehl \url{...}
+\usepackage{enumerate}		% Kompakte Listen
+
+% Neue Befehle: \Centering, \RaggedLeft, and \RaggedRight, ... 
+\usepackage{ragged2e}
+
+
+% ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+% Citations
+% ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+%\usepackage[
+%	style=alphabetic, % Loads the bibliography and the citation style 
+%	natbib=true, % define natbib compatible cite commands
+%]{biblatex}	
+% Other options:
+%	style=numeric, % 
+%	style=numeric-comp,    % [1–3, 7, 8]
+%	style=numeric-verb,    % [2]; [5]; [6]
+
+\usepackage{csquotes}
+
+% ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+% layout packages
+% ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+%
+% Befehle für 1,5 und 2 zeilig: 
+% \singlespacing, \onehalfspacing und \doublespacing
+\usepackage{setspace}
+
+% ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+% Kopf und Fusszeile
+% ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+% Kopf und Fusszeile mit scrpage2 einstellen
+\usepackage[automark, komastyle, nouppercase]{scrpage2}
+
+% ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+% pdf packages
+% ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+% Include pages from external PDF documents in LaTeX documents
+\usepackage{pdfpages} 
+
+% Optischer Randausgleich mit pdfTeX
+\usepackage{microtype}

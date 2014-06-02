@@ -1,0 +1,79 @@
+% Kommentare für den Editor (TexWorks/TexMakerX)
+% !TeX encoding   = utf8
+% !TeX spellcheck = de-DE
+
+% --- LaTeX Vorlage ------------------------------------------------------
+% speziell für einfache Dokumente wie Praktikumsprotokolle
+%
+% Autor: Matthias Pospiech (matthias@pospiech.eu)
+% ------------------------------------------------------------------------
+
+% Dokumentenklasse (Koma Script) -----------------------------------------
+\documentclass[%
+   %draft,     % Entwurfsstadium
+   final,      % fertiges Dokument
+   paper=a4, paper=portrait, pagesize=auto, % Papier Einstellungen
+   fontsize=11pt, % Schriftgröße
+   ngerman, % Sprache 
+ ]{scrreprt} % Classes: scrartcl, scrreprt, scrbook
+
+% ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+% encoding
+% ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+% Encoding der Dateien (sonst funktionieren Umlaute nicht)
+\usepackage[utf8]{inputenc}
+
+% Encoding der Verzeichnisse (für Pfade mit Umlauten und Leerzeichne)
+\usepackage[%
+   extendedchars, encoding, multidot, space,
+   %filenameencoding=latin1, % Windows XP, Vista, 7
+   filenameencoding=utf8,   % Linux, OS X
+]{grffile}
+
+% ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+% Pakete und Stile
+% ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+% Schriften
+\input{preambel/fonts}
+% Pakete Laden
+\input{preambel/packages}
+% Einstellungen und Layoutstile 
+\input{preambel/style}
+
+
+% ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+% Eigene Befehle
+% ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+\input{macros/newcommands}
+\renewcommand{\labelenumi}{\alph{enumi})}
+\renewcommand{\labelenumii}{\roman{enumii})}
+\setlength{\parindent}{0pt}
+% ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+% Eigene Befehle
+% ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+\input{content/Silbentrennung}
+
+\listfiles % schreibt alle verwendeten Dateien in die log Datei
+
+%% Dokument Beginn %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+\input{content/titel}
+\input{content/quote}
+\tableofcontents
+
+% Testdokumente (auskommentieren!)
+%\input{content/demo/demo.tex}
+%\input{content/demo/latexexample.tex}
+
+% in diese Datei gehört der Inhalt des Dokumentes:
+\input{content/body.tex}
+%\input{content/Laborversuch.tex}
+
+% Hier kommmen Tabellen und Bilder
+%\listoftables
+%\listoffigures
+
+\end{document}
+%% Dokument ENDE %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
