@@ -26,12 +26,10 @@ Wahlen wird grundsätzlich offen abgestimmt.
 mindestens ein stimmberechtigtes Mitglied dies fordert. Abweichend von Absatz 2 wird bei
 sonstigen Beschlüssen, jedoch nicht bei Anträgen zur Geschäftsordnung, geheim abgestimmt,
 wenn mindestens 5% der stimmberechtigten Mitglieder dies fordern.
-4. Wird geheim gewählt, so wird der Mitgliederversammlung durch den Wahlleiter die Anzahl der
+4. Bei Wahlen wird der Mitgliederversammlung durch den Wahlleiter die Anzahl der
 Stimmberechtigten für diese Wahl, die Anzahl der abgegeben Stimmen, die gültigen und die
 jeweils auf den Kandidaten entfallenen Stimmen und hieraus resultierend das Ergebnis der Wahl
-mitgeteilt. Bei offenen Abstimmungen werden nach Augenmaß des Wahlleiters die
-Mehrheitsverhältnisse festgestellt, bei unklaren Verhältnissen erfolgt eine genaue
-Auszählung.
+mitgeteilt. 
 5. Alle Mitglieder, insbesondere der Wahlleiter und die Wahlhelfer, sind verpflichtet,
 Vorkommnisse, die die Rechtmäßigkeit der Wahl in Frage stellen, unverzüglich dem
 Versammlungsleiter anzuzeigen. Dieser ist verpflichtet, die Mitgliederversammlung hiervon
