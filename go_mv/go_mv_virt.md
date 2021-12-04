@@ -46,10 +46,7 @@ Ja/Nein/Enthaltung abgestimmt. Danach wird für den Antrag mit den meisten Ja-St
 einfacher Mehrheit erneut abgestimmt, ob er angenommen wird oder nicht. Sollte 
 Stimmengleichheit zwischen mehreren Anträgen herrschen, wird über diese erneut abgestimmt,
 bis ein Antrag feststeht.
-8. Als Wahlverfahren für offene Personenwahlen wird das Verfahren für Alternativanträge
-analog angewendet.
-9. Als Wahlverfahren für geheime Personenwahlen wird eine Akzeptanzwahl
-folgendermaßen angewendet. Jeder stimmberechtigte Mitglied hat so viele Stimmen wie
+9. Bei Personenwahlen erhält jeder stimmberechtigte Mitglied so viele Ja-Stimmen wie
 Kandidaten zur Auswahl stehen, keinem Kandidaten darf mehr als eine Stimme gegeben
 werden, es müssen nicht alle Stimmen verteilt werden. Außerdem kann jeder
 stimmberechtigte Mitglied „Nein“ stimmen und so keinem Kandidaten eine Stimme
