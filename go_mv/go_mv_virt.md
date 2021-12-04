@@ -112,8 +112,8 @@ durchzuführen haben.
     3. die Feststellung der Wahlberechtigung,
     4. die Eröffnung und die Beendigung der Wahl,
     5. das Sicherstellen der Einhaltung der Wahlgrundsätze insbesondere der geheimen Wahl,
-    6. das Entgegennehmen der Wahlzettel,
-    7. das Auszählen der Stimmen,
+    6. (weggefallen)
+    7. (weggefallen)
     8. Feststellung der Anzahl der Stimmberechtigten, der abgegeben, der gültigen, der
     ungültigen und der jeweils auf die Kandidaten entfallenen Stimmen und der daraus
     resultierenden Wahl,
