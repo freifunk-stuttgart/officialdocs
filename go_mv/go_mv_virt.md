@@ -71,6 +71,11 @@ der Liste nach absteigender Stimmenzahl. Bei Stimmengleichheit findet eine Stich
 kann er einen Mitglieden beauftragen, ihn zu vertreten. Der Vertreter des Mitglieden verkündet
 der Versammlung, dass er den entsprechenden Kandidaten vertritt und ob der Kandidat
 gegebenenfalls eine Annahme der Wahl wünscht.
+12. Ist bei einer Personenwahl die Anzahl der zu wählenden Kandidaten nicht festgeschrieben,
+kann die Mitgliederversammlung vor Beginn der Kandidatensuche auf Antrag beschließen, nur
+eine bestimmte Anzahl Kandidaten wählen zu wollen. Jeder Mitglied erhält dann so viele
+Stimmen wie Kandidaten zu wählen sind. Gewählt sind die Kandidaten mit den meisten Stimmen.
+Ansonsten wird wie bei Personenwahlen verfahren.
 
 ## § 3 Ämter der Mitgliederversammlung
 
