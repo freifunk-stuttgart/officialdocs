@@ -162,10 +162,9 @@ oder einem Stellvertreter nach jedem anderen Redebeitrag das Rederecht einräume
 die Rednerliste bereits geschlossen ist.
 
 ## § 5 Anträge zur Geschäftsordnung
-1. Jeder Mitglied kann jederzeit durch Heben beider Hände das Vorhaben anzeigen, einen Antrag
-zur Geschäftsordnung stellen zu wollen. Um Verwechslungen zu vermeiden, muss dabei die
-Wahlkarte ebenfalls hochgehoben werden. Solch einem Antrag ist nach der aktuellen
-Wortmeldung Vorrang zu geben.
+1. Jeder Mitglied kann jederzeit durch die im Onlinesystem entsprechend benannte Funktion
+das Vorhaben anzeigen, einen Antrag zur Geschäftsordnung stellen zu wollen. Solch einem
+Antrag ist nach der aktuellen Wortmeldung Vorrang zu geben.
 2. Wurde ein Antrag gestellt, so kann jeder Mitglied entsprechend Abs. 1 einen Alternativantrag
 stellen. Andere Anträge sind bis zum Beschluss über den Antrag oder dessen Rückziehung nicht
 zulässig. Jeder Mitglied kann daraufhin eine Für- oder Gegenrede für einen Antrag halten.
