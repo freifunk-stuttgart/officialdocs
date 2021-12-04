@@ -59,14 +59,7 @@ vergeben. Dabei muss vorher die Möglichkeit bestehen, dass sich weitere Kandida
 stellen. Erhalten zwei Kandidaten bei der Wahl für ein Amt mehrmals die gleiche
 Stimmenanzahl, so kann die Mitgliederversammlung beschließen, dass für die folgende
 Stichwahl jeder Stimmberechtigte nur eine Stimme hat.
-10. Die Aufstellung von Listen zur Bewerbung bei öffentlichen Wahlen erfolgt in drei Schritten. Im
-ersten Schritt wird bestimmt, wie viele Personen auf der Liste stehen sollen. Im zweiten Schritt
-werden in einer geheimen Personenwahl die Personen gewählt, die auf der Liste stehen sollen.
-Im dritten Schritt wird die Reihenfolge der Personen auf der Liste in einer geheimen
-Abstimmung bestimmt. Dabei hat jeder stimmberechtigte Mitglied maximal so viele Stimmen
-wie Personen auf der Liste stehen. Jeder Person auf der Liste können von 0 bis 3 Stimmen
-zugeordnet werden. Die Reihenfolge der Liste ergibt sich aus der Sortierung der Personen auf
-der Liste nach absteigender Stimmenzahl. Bei Stimmengleichheit findet eine Stichwahl ein.
+10. weggefallen
 11. Ist es einem Kandidaten für eine Personenwahl nicht möglich, persönlich anwesend zu sein,
 kann er einen Mitglieden beauftragen, ihn zu vertreten. Der Vertreter des Mitglieden verkündet
 der Versammlung, dass er den entsprechenden Kandidaten vertritt und ob der Kandidat
