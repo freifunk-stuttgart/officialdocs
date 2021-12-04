@@ -41,11 +41,9 @@ Versammlungsleiter zu gewährleisten.
 6. Kandidieren für ein Amt kann jedes Mitglied im Sinne der Satzung, das sich bis zum Aufruf
 durch den Wahlleiter vor der Wahl hierfür meldet. Jedes Mitglied hat das Recht, vor der Wahl
 zurückzutreten oder auf Nachfrage durch den Wahlleiter die Annahme der Wahl zu verweigern.
-7. Als Wahlverfahren für Alternativanträge wird eine Akzeptanzwahl folgendermaßen
-angewendet. Jeder stimmberechtigte Mitglied hat so viele Stimmen wie Anträge zur Auswahl
-stehen, keinem Antrag darf mehr als eine Stimme gegeben werden, es müssen nicht alle
-Stimmen verteilt werden. Danach wird für den Antrag mit den meisten Stimmen mit einfacher
-Mehrheit erneut abgestimmt, ob er angenommen wird oder nicht. Sollte in einer Akzeptanzwahl
+7. Als Wahlverfahren für Alternativanträge wird über jeden Antrag einzeln mit
+Ja/Nein/Enthaltung abgestimmt. Danach wird für den Antrag mit den meisten Ja-Stimmen mit 
+einfacher Mehrheit erneut abgestimmt, ob er angenommen wird oder nicht. Sollte 
 Stimmengleichheit zwischen mehreren Anträgen herrschen, wird über diese erneut abgestimmt,
 bis ein Antrag feststeht.
 8. Als Wahlverfahren für offene Personenwahlen wird das Verfahren für Alternativanträge
