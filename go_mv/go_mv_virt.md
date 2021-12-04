@@ -1,11 +1,10 @@
 # Geschäftsordnung für virtuelle Mitgliederversammlungen von Freifunk Stuttgart
 
 ## § 1 Allgemeines
-1. Zur Zulassung zur Mitgliederversammlung wird vor Ort eine Registrierung eingerichtet. Sie
-besteht aus einem geeigneten Mitglied des Vorstands. Es wird anhand der einschlägigen
-Informationen geprüft, ob die Person Mitglied mit Stimmrecht ist und entsprechendes Material
-ausgegeben. Es wird festgehalten und auf Anfrage dem Wahlleiter mitgeteilt, wie viele
-Mitglieder zu jeder Wahl bzw. Abstimmung stimmberechtigt sind.
+1. Zur Zulassung zur virtuellen Mitgliederversammlung werden den Mitgliedern individuelle
+Zugangsdaten zu einem Onlinesystem per E-Mail zugeschickt. Das Mitglied gilt als
+registriert, sobald es sich mit seinen Zugangsdaten angemeldet hat und mit einem geeigneten,
+auf der Onlineplattform veröffentlichten Mittel als anwesend markiert hat.
 2. Nimmt ein Mitglied nur an Teilen der Mitgliederversammlung teil, so entstehen hieraus keine
 rückwirkenden Rechte, insbesondere ist keine Anfechtung von Wahlergebnissen oder
 Entscheiden möglich.
