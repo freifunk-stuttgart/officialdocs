@@ -61,12 +61,12 @@ Stimmenanzahl, so kann die Mitgliederversammlung beschließen, dass für die fol
 Stichwahl jeder Stimmberechtigte nur eine Stimme hat.
 10. weggefallen
 11. Ist es einem Kandidaten für eine Personenwahl nicht möglich, persönlich anwesend zu sein,
-kann er einen Mitglieden beauftragen, ihn zu vertreten. Der Vertreter des Mitglieden verkündet
+kann er ein Mitglied beauftragen, ihn zu vertreten. Der Vertreter des Mitglieds verkündet
 der Versammlung, dass er den entsprechenden Kandidaten vertritt und ob der Kandidat
 gegebenenfalls eine Annahme der Wahl wünscht.
 12. Ist bei einer Personenwahl die Anzahl der zu wählenden Kandidaten nicht festgeschrieben,
 kann die Mitgliederversammlung vor Beginn der Kandidatensuche auf Antrag beschließen, nur
-eine bestimmte Anzahl Kandidaten wählen zu wollen. Jeder Mitglied erhält dann so viele
+eine bestimmte Anzahl Kandidaten wählen zu wollen. Jedes Mitglied erhält dann so viele
 Stimmen wie Kandidaten zu wählen sind. Gewählt sind die Kandidaten mit den meisten Stimmen.
 Ansonsten wird wie bei Personenwahlen verfahren.
 
@@ -80,13 +80,13 @@ wird.
 gewählt.
 3. Der Versammlungsleitung obliegt die Einhaltung der Tagesordnung inkl. Zeitplan. Dazu teilt sie
 Rederecht inkl. Redezeit zu bzw. entzieht diese, wobei eine angemessene inhaltliche wie
-personale Diskussion und Beteiligung der einzelnen Mitglieden sichergestellt werden muss.
+personale Diskussion und Beteiligung der einzelnen Mitglieder sichergestellt werden muss.
 4. Die Versammlungsleitung hat das Recht, der Mitgliederversammlung vorzuschlagen, die
 Tagesordnung in soweit zu ändern, dass die Reihenfolge der Tagesordnungspunkte, nicht aber
 deren grundsätzliche angemessene Behandlung, geändert wird. Die Mitgliederversammlung hat
 darüber sofort zu entscheiden.
 5. Die Versammlungsleitung kündigt Beginn und Ende von Pausen bzw. Vertagungen an.
-6. Die Versammlungsleitung kann freiwillige Mitglieden dazu ernennen, sie in ihrer Arbeit zu
+6. Die Versammlungsleitung kann freiwillige Mitglieder dazu ernennen, sie in ihrer Arbeit zu
 unterstützen. Diese sind der Mitgliederversammlung durch die Versammlungsleitung
 unverzüglich nach ihrer Ernennung bekannt zu machen.
 7. Die Versammlungsleitung nimmt während der Mitgliederversammlung Anträge entgegen, die
@@ -96,7 +96,7 @@ angemessen bekannt macht.
 Prüfen der Anträge zu unterstützen. Diese Antragshelfer sind der Mitgliederversammlung durch
 die Versammlungsleitung unverzüglich nach ihrer Ernennung bekannt zu machen. Auf
 begründeten Antrag an die Versammlungsleitung kann die Mitgliederversammlung entscheiden,
-einzelne Mitglieden abzulehnen.
+einzelne Mitglieder abzulehnen.
 9. Die Versammlungsleitung übt für die Dauer der Mitgliederversammlung das Hausrecht aus,
 trägt für den ungestörten Ablauf der Mitgliederversammlung Sorge und kann Personen, die den
 Fortgang der Mitgliederversammlung erheblich und auf Dauer stören, von dieser ausschließen.
@@ -135,16 +135,16 @@ ist das Sitzungsprotokoll auch vom Wahlleiter zu unterzeichnen.
 
 1. Die Mitgliederversammlung wählt mindestens einen Protokollanten, der über die
 Mitgliederversammlung das Protokoll anfertigt.
-2. Die Versammlungsleitung kann freiwillige Mitglieden dazu ernennen, die Protokollanten in
+2. Die Versammlungsleitung kann freiwillige Mitglieder dazu ernennen, die Protokollanten in
 ihrer Arbeit zu unterstützen. Diese Protokollhelfer sind der Mitgliederversammlung durch die
 Versammlungsleitung unverzüglich nach ihrer Ernennung bekannt zu machen. Auf begründeten
 Antrag an die Versammlungsleitung kann die Mitgliederversammlung entscheiden, einzelne
-Mitglieden abzulehnen.
+Mitglieder abzulehnen.
 
 ## § 4 Anträge
 
 1. Jeder Mitglied hat das Recht, Anträge auf der Mitgliederversammlung zu stellen. Handelt es
-sich bei dem Antragsteller um eine Gruppe von Mitglieden, bestimmt diese einen Mitglieden
+sich bei dem Antragsteller um eine Gruppe von Mitgliedern, bestimmt diese ein Mitglied
 zum Vertreter des Antrags vor der Mitgliederversammlung. Regelungen der Satzung oder dieser
 Geschäftsordnung zu Form und Frist sind unbedingt zu beachten.
 2. Eigenständige Anträge müssen beim Versammlungsleiter schriftlich und begründet eingereicht
@@ -153,7 +153,7 @@ Mitgliederversammlung angemessen bekannt. Ein Recht auf sofortige Behandlung des
 besteht nicht.
 3. Über Anträge, die innerhalb der Diskussion um einen eigenständigen Antrag mündlich
 vorgebracht werden und diesen nur in geringem Umfang und dem Sinn nach inhaltlich
-ergänzen, kann ohne schriftliche Vorlage entschieden werden. Auf Verlangen eines Mitglieden
+ergänzen, kann ohne schriftliche Vorlage entschieden werden. Auf Verlangen eines Mitglieds
 muss der Mitgliederversammlung innerhalb einer halben Stunde der genaue Wortlaut des
 geänderten Antrags unter Einschluss der Begründung zur Beschlussfassung vorgelegt werden.
 4. Antragsteller haben das Recht, ihren Antrag in kompakter Rede vorzustellen. Einer Anzahl
@@ -167,9 +167,9 @@ die Rednerliste bereits geschlossen ist.
 1. Jeder Mitglied kann jederzeit durch die im Onlinesystem entsprechend benannte Funktion
 das Vorhaben anzeigen, einen Antrag zur Geschäftsordnung stellen zu wollen. Solch einem
 Antrag ist nach der aktuellen Wortmeldung Vorrang zu geben.
-2. Wurde ein Antrag gestellt, so kann jeder Mitglied entsprechend Abs. 1 einen Alternativantrag
+2. Wurde ein Antrag gestellt, so kann jedes Mitglied entsprechend Abs. 1 einen Alternativantrag
 stellen. Andere Anträge sind bis zum Beschluss über den Antrag oder dessen Rückziehung nicht
-zulässig. Jeder Mitglied kann daraufhin eine Für- oder Gegenrede für einen Antrag halten.
+zulässig. Jedes Mitglied kann daraufhin eine Für- oder Gegenrede für einen Antrag halten.
 3. Unterbleibt eine Gegenrede und wurde kein Alternativantrag gestellt, so ist der Antrag
 angenommen. Gibt es mindestens eine Gegenrede oder gibt es mindestens einen
 Alternativantrag, so wird über den Antrag bzw. die Anträge abgestimmt. In diesem Fall kommt
@@ -183,8 +183,8 @@ sind:
     4. Antrag auf Schließung der Rednerliste.
     5. Antrag auf Öffnung der Rednerliste.
     6. Antrag auf Begrenzung der Redezeit; im Antrag muss die gewünschte Dauer in
-    Sekunden enthalten sein. Einen Antrag auf Begrenzung der Redezeit kann jeder Mitglied
-    stellen, sofern er nicht oder nicht mehr auf der Rednerliste steht.
+    Sekunden enthalten sein. Einen Antrag auf Begrenzung der Redezeit kann jede Mitglied
+    stellen, sofern es nicht oder nicht mehr auf der Rednerliste steht.
     7. Antrag auf Alternativantrag.
     8. Antrag auf Nennung der Anzahl Stimmberechtigter.
     9. Antrag auf Ablehnung einzelner Wahlhelfer nach §3(3).
@@ -196,7 +196,7 @@ sind:
     15. Antrag auf Wiederholung der Wahl/Abstimmung.
     16. Antrag auf Auszählung bei offenen Wahlen/Abstimmungen.
     17. Antrag auf Einholung eines Meinungsbildes.
-        1. Der Antragsteller formuliert eine Frage, woraufhin die anderen Mitglieden
+        1. Der Antragsteller formuliert eine Frage, woraufhin die anderen Mitglieder
 Bedenken gegen das Meinungsbild äußern können, bevor eine Abstimmung
 durchgeführt wird.
         2. Das Meinungsbild wird auch bei knappen Ergebnis nicht ausgezählt.
