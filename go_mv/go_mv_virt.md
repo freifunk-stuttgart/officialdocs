@@ -127,7 +127,9 @@ einzelne Wahlhelfer abzulehnen.
 4. Wenn geheime Wahlen oder Abstimmungen stattgefunden haben, fertigt der Wahlleiter ein
 Wahlprotokoll über alle Wahlen der Mitgliederversammlung an, das von ihm selbst zu
 unterschreiben und somit zu beurkunden ist. Das Wahlprotokoll muss von mindestens einem
-Wahlhelfer unterschrieben werden, sofern Wahlhelfer ernannt wurden.
+Wahlhelfer unterschrieben werden, sofern Wahlhelfer ernannt wurden. Das Wahlprotokoll kann,
+wenn der Wahlleiter dies wünscht, Bestandteil des Sitzungsprotokolls werden. In diesem Falle
+ist das Sitzungsprotokoll auch vom Wahlleiter zu unterzeichnen.
 
 ### § 3c Protokollanten
 
